@@ -1,0 +1,31 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #fafafa;
+	color: #333;
+	font-family: warnock-pro, serif;
+	font-size: 24px;
+}
+
+.text-block {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.name, .honorific {
+	text-transform: capitalize;
+}	
+
+.name {
+	font-size: 1.6em;
+	color: #f21c1c;
+	font-style: italic;
+}
+
+.honorific {
+	font-size: 1em;
+}
